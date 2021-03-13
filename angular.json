@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "MitChatBot"
+    }
+  },
+  "defaultProject": "MitChatBot",
+  "cli": {
+    "analytics": "28ec49dc-e2db-493a-8587-2b97f5aca4a5"
+  }
 }

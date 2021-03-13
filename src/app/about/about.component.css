@@ -1,4 +1,7 @@
-
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
   .example-button-row {
     display: table-cell;
 
@@ -6,8 +9,8 @@
   }
   
   .example-button-row .mat-button-base {
-    margin: 70px 100px 70px 50px;
-    padding-left: 100px;
+    margin: 80px 50px 50px 50px;
+    padding-left: 90px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 100px;
@@ -29,7 +32,11 @@
   }
   .bg-image {
     /* The image used */
-    background-image: url("../assets/MIT-WPU-Pune1.jpg");
+    background-image: url("../../assets/MIT-WPU-Pune1.jpg");
     
     
+  }
+  a{
+    font-family: 'Lexend Peta', sans-serif;
+    text-decoration: none;
   }

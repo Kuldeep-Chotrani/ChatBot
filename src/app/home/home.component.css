@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .content { 
+    padding: 16px; 
+   
+  }
+  
+  .content > mat-card { 
+    width: 200px; 
+  }
+  .bg-image {
+    /* The image used */
+    background-image: url("../../assets/MIT-WPU-Pune1.jpg");
+    
+    
+  }
