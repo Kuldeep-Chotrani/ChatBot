@@ -1,6 +1,13 @@
-.bot {
+
+  .bot {
     position: absolute;
-    top: 200px;
-    align-content: flex-end;
     right: 0px;
+  }
+  .botclass {
+    position: absolute;
+    right: 20px;
+    width: 300px;
+    padding-left:10px ;
+    top: 520px;
+    background-color: aqua;
   }

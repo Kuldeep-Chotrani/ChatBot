@@ -4,16 +4,15 @@
   
   .example-button-row {
     display: table-cell;
-
- 
+    width: 930px;
   }
   
   .example-button-row .mat-button-base {
-    margin: 80px 50px 50px 50px;
-    padding-left: 90px;
+    margin: 30px 40px 30px 40px;
+    padding-left: 70px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 100px;
+    padding-right: 70px;
   }
   
   .example-flex-container {
