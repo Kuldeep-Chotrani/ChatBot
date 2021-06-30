@@ -1,11 +1,11 @@
 
   .bot {
     position: absolute;
-    right: 0px;
+    left : 950px;
   }
   .botclass {
     position: absolute;
-    right: 20px;
+    left : 970px;
     width: 300px;
     padding-left:10px ;
     top: 520px;
