@@ -1,13 +1,15 @@
 
   .bot {
     position: absolute;
-    left : 950px;
+    left : 930px;
+    width: 300px;
+    top: 65px;
   }
   .botclass {
     position: absolute;
-    left : 970px;
+    left : 960px;
     width: 300px;
     padding-left:10px ;
     top: 520px;
-    background-color: aqua;
+    background-color: rgb(181, 215, 228);
   }

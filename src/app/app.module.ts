@@ -17,6 +17,7 @@ import { AchievementsComponent } from './achievements/achievements.component';
 import { DepartmentComponent } from './department/department.component';
 import { HostelComponent } from './hostel/hostel.component';
 import { ChatBotComponent } from './chat-bot/chat-bot.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ChatBotComponent } from './chat-bot/chat-bot.component';
     AchievementsComponent,
     DepartmentComponent,
     HostelComponent,
-    ChatBotComponent
+    ChatBotComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

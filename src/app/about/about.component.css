@@ -1,7 +1,4 @@
-.example-spacer {
-    flex: 1 1 auto;
-  }
-  
+
   .example-button-row {
     display: table-cell;
     width: 930px;
@@ -25,14 +22,9 @@
     justify-content: center;
     width: 320px;
   }
-  .example-spacer {
-    flex: 1 1 auto;
-  }
   .bg-image {
     /* The image used */
     background-image: url("../../assets/MIT-WPU-Pune1.jpg");
-    
-    
   }
   a{
     font-family: 'Lexend Peta', sans-serif;
