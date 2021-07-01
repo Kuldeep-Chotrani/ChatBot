@@ -1,27 +1,41 @@
 <p>
-    <mat-toolbar>
-     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>menu</mat-icon>
-    </button>
-    <span style="cursor:pointer" routerLink ="/about" routerLinkActive ="active" >MIT-World Peace University</span>
-    <span class="example-spacer"></span>
-    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-      <mat-icon>favorite</mat-icon>
-    </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-     <mat-icon>share</mat-icon>
-   </button>
-  </mat-toolbar>
-  </p><mat-toolbar color="primary"> Campus Placements </mat-toolbar>
-  <div class="content" fxLayout="row wrap" fxLayoutGap="16px grid">
-    <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
+  <mat-toolbar>
+   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span style="cursor:pointer" routerLink ="/about" routerLinkActive ="active" >MIT-World Peace University</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+   <mat-icon>share</mat-icon>
+ </button>
+</mat-toolbar>
+</p><mat-toolbar color="primary"> Campus Placements </mat-toolbar>
+<div class="content" fxLayout="row wrap" fxLayoutGap="16px grid">
+  <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
+    <mat-card class="mat-elevation-z4">
+      <mat-card-header>
+        <mat-card-title>ZS Associates</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="./../assets/ZS-Associates1.png" style="height: min-content;"  />
+      <mat-card-content>
+        <p>ZS is a professional services firm that works side by side with companies to help develop and deliver products that drive customer value and company results.</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>Details</button> <button mat-button>Company Website</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
       <mat-card class="mat-elevation-z4">
         <mat-card-header>
-          <mat-card-title>ZS Associates</mat-card-title>
+          <mat-card-title>UBS Solutions</mat-card-title>
         </mat-card-header>
-        <img mat-card-image src="./../assets/ZS-Associates1.png" style="height: min-content;"  />
+        <img mat-card-image src="./../assets/UBS.jpg" style="height: 200px;" />
         <mat-card-content>
-          <p>ZS is a professional services firm that works side by side with companies to help develop and deliver products that drive customer value and company results.</p>
+          <p>UBS Investment Bank provides corporate, institutional and wealth management clients with expert advice, innovative solutions and  access to international capital markets.</p>
         </mat-card-content>
         <mat-card-actions>
           <button mat-button>Details</button> <button mat-button>Company Website</button>
@@ -29,157 +43,143 @@
       </mat-card>
     </div>
     <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
-        <mat-card class="mat-elevation-z4">
-          <mat-card-header>
-            <mat-card-title>UBS Solutions</mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="./../assets/UBS.jpg" style="height: 200px; width: 318px;" />
-          <mat-card-content>
-            <p>UBS Investment Bank provides corporate, institutional and wealth management clients with expert advice, innovative solutions and  access to international capital markets.</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Details</button> <button mat-button>Company Website</button>
-          </mat-card-actions>
-        </mat-card>
-      </div>
-      <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
-        <mat-card class="mat-elevation-z4">
-          <mat-card-header>
-            <mat-card-title>Amdocs</mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="./../assets/Amdocs.jpg" style="height: 200px; width: 318px;" />
-          <mat-card-content>
-            <p>Amdocs is driving our increasingly connected digital society forward by utilizing the creativity of our 26,000 employees and our innovative, award-winning technology.</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Details</button> <button mat-button>Company Website</button>
-          </mat-card-actions>
-        </mat-card>
-      </div>
-      <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
-        <mat-card class="mat-elevation-z4">
-          <mat-card-header>
-            <mat-card-title>Tieto EVRY</mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="./../assets/Tieto.jpg" style="height: 200px; width: 318px;"  />
-          <mat-card-content>
-            <p>TietoEVRY creates digital advantage for businesses and society. We are a leading digital services and software company with local presence and global capabilities.</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Details</button> <button mat-button>Company Website</button>
-          </mat-card-actions>
-        </mat-card>
-      </div>
-      <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
-        <mat-card class="mat-elevation-z4">
-          <mat-card-header>
-            <mat-card-title>Cognizant</mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="./../assets/Cogni.png" style="height: 200px; width: 318px;"  />
-          <mat-card-content>
-            <p>We innovate to find a better way—for the clients who depend on us, the customers who rely on them and the communities who count on us all.</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Details</button> <button mat-button>Company Website</button>
-          </mat-card-actions>
-        </mat-card>
-      </div>
-      <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
-        <mat-card class="mat-elevation-z4">
-          <mat-card-header>
-            <mat-card-title>Infosys</mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="./../assets/Infosys.png"  style="height: 200px; width: 318px;"  />
-          <mat-card-content>
-            <p>Infosys Limited, is an Indian multinational corporation that provides business consulting, information technology and outsourcing services.</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Details</button> <button mat-button>Company Website</button>
-          </mat-card-actions>
-        </mat-card>
-      </div>
-      <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
-        <mat-card class="mat-elevation-z4">
-          <mat-card-header>
-            <mat-card-title>Wipro</mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="./../assets/Wipro.png" style="height: 200px; width: 318;"/>
-          <mat-card-content>
-            <p>Wipro is empowering a more resilient future for customers and communities. From building more adaptive "business-anywhere" frameworks</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Details</button> <button mat-button>Company Website</button>
-          </mat-card-actions>
-        </mat-card>
-      </div>
-      <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
-        <mat-card class="mat-elevation-z4">
-          <mat-card-header>
-            <mat-card-title>Symphony</mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="./../assets/Symphony.png" style="height: 200px; width: 318;" />
-          <mat-card-content>
-            <p>Symphony Limited is an Indian Manufacturing company of durables products located in Ahmedabad, Gujarat, India. Symphony has its operations in about 60 countries</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Details</button> <button mat-button>Company Website</button>
-          </mat-card-actions>
-        </mat-card>
-      </div>
-      <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
-        <mat-card class="mat-elevation-z4">
-          <mat-card-header>
-            <mat-card-title>VI Solutions</mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="./../assets/Vodafone.jpg" style="height: 200px; width: 318px;" />
-          <mat-card-content>
-            <p>_VOIS (Vodafone Intelligent Solutions) is a separate brand identity, which is a part of the legal entity Vodafone India Services Private Limited.</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Details</button> <button mat-button>Company Website</button>
-          </mat-card-actions>
-        </mat-card>
-      </div>
-      <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
-        <mat-card class="mat-elevation-z4">
-          <mat-card-header>
-            <mat-card-title>Apisero INC</mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="./../assets/Apisero.jpg" style="height: 200px; width: 318px;" />
-          <mat-card-content>
-            <p>Apisero is a Premier MuleSoft consulting and Salesforce Consulting Partner that to partner with clients from a wide variety of industries and company sizes.</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Details</button> <button mat-button>Company Website</button>
-          </mat-card-actions>
-        </mat-card>
-      </div>
-      <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
-        <mat-card class="mat-elevation-z4">
-          <mat-card-header>
-            <mat-card-title>Abzooba</mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="./../assets/bzooba.png" style="height: 200px; width: 318px;" />
-          <mat-card-content>
-            <p>Abzooba is a leading AI solution and service provider, serving all Artificial Intelligence layers like Deep Learning, Machine learning, Computer Vision, NLP & Big Data.</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Details</button> <button mat-button>Company Website</button>
-          </mat-card-actions>
-        </mat-card>
-      </div>
-      <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
-        <mat-card class="mat-elevation-z4">
-          <mat-card-header>
-            <mat-card-title>Deloitte</mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="./../assets/Deloitte.png" style="height: 200px; width: 318px;" />
-          <mat-card-content>
-            <p>Deloitte provides industry-leading audit, consulting, tax, and advisory services to many of the world's most admired brands. Deloitte is a recognized leader of top talent.</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-button>Details</button> <button mat-button>Company Website</button>
-          </mat-card-actions>
-        </mat-card>
-      </div>
-  </div>
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title>Amdocs</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/Amdocs.jpg" style="height: 200px; " />
+        <mat-card-content>
+          <p>Amdocs is driving our increasingly connected digital society forward by utilizing the creativity of our 26,000 employees and our innovative, award-winning technology.</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Details</button> <button mat-button>Company Website</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title>Tieto EVRY</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/Tieto.jpg" style="height: 200px; "  />
+        <mat-card-content>
+          <p>TietoEVRY creates digital advantage for businesses and society. We are a leading digital services and software company with local presence and global capabilities.</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Details</button> <button mat-button>Company Website</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title>Cognizant</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/Cogni.png" style="height: 200px; "  />
+        <mat-card-content>
+          <p>We innovate to find a better way—for the clients who depend on us, the customers who rely on them and the communities who count on us all.</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Details</button> <button mat-button>Company Website</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title>Infosys</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/Infosys.png"  style="height: 200px; "  />
+        <mat-card-content>
+          <p>Infosys Limited, is an Indian multinational corporation that provides business consulting, information technology and outsourcing services.</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Details</button> <button mat-button>Company Website</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title>Wipro</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/Wipro.png" style="height: 200px; width: 318;"/>
+        <mat-card-content>
+          <p>Wipro is empowering a more resilient future for customers and communities. From building more adaptive "business-anywhere" frameworks</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Details</button> <button mat-button>Company Website</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title>Symphony</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/Symphony.png" style="height: 200px; width: 318;" />
+        <mat-card-content>
+          <p>Symphony Limited is an Indian Manufacturing company of durables products located in Ahmedabad, Gujarat, India. Symphony has its operations in about 60 countries</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Details</button> <button mat-button>Company Website</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title>VI Solutions</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/Vodafone.jpg" style="height: 200px; " />
+        <mat-card-content>
+          <p>_VOIS (Vodafone Intelligent Solutions) is a separate brand identity, which is a part of the legal entity Vodafone India Services Private Limited.</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Details</button> <button mat-button>Company Website</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title>Apisero INC</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/Apisero.jpg" style="height: 200px; " />
+        <mat-card-content>
+          <p>Apisero is a Premier MuleSoft consulting and Salesforce Consulting Partner that to partner with clients from a wide variety of industries and company sizes.</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Details</button> <button mat-button>Company Website</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title>Abzooba</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/bzooba.png" style="height: 200px; " />
+        <mat-card-content>
+          <p>Abzooba is a leading AI solution and service provider, serving all Artificial Intelligence layers like Deep Learning, Machine learning, Computer Vision, NLP & Big Data.</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Details</button> <button mat-button>Company Website</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%"  fxFlex.xs="100%" fxFlex.sm="33%" >
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title>Deloitte</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./../assets/Deloitte.png" style="height: 200px; " />
+        <mat-card-content>
+          <p>Deloitte provides industry-leading audit, consulting, tax, and advisory services to many of the world's most admired brands. Deloitte is a recognized leader of top talent.</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Details</button> <button mat-button>Company Website</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+</div>
